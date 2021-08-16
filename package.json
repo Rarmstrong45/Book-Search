@@ -1,5 +1,5 @@
 {
-  "name": "googlebooksDB",
+  "name": "book-search",
   "version": "1.0.0",
   "description": "## Project Description This project refactors a Google Books API search engine from a RESTful API to a GraphQL API with Apollo Server.  The search engine is built using the MERN stack - MongoDB, Express.js, React, and Node.js. A user can create an account, search for books, and save them to a list. On a separately rendered page, the user can see their saved books and remove books from the list.",
   "main": "server/server.js",
@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rarmstrong45/Book-Search.git"
+    "url": "git+https://github.com/Rarmstrong45/Book-Search-Engine.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "apollo-server-express": "^2.25.2",
     "graphql": "^15.5.1",
